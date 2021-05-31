@@ -1,0 +1,369 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.orange-button{
+    color: white;
+    background-color: rgb(255, 112, 17);
+    padding-top: 8px;
+    padding-bottom: 15px;
+    padding-left: 18px;
+    padding-right: 18px;
+    border-radius: 4px;
+    margin-top: 40px;
+    position: relative;
+    bottom: 10px;
+    left: 4px;
+    white-space: nowrap;
+}
+h1{
+    font-weight: normal;
+    font-size: xx-large;
+    padding-right: 15px;
+}
+/* header */
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 945px;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 3px;
+    z-index: 1;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  header ul{
+      list-style-type: none;
+      font-size: small;
+      text-align:left;
+  }
+main img{
+    border-radius: 5px;
+    box-shadow: 1px 1px 8px 1px rgba(75, 75, 75, 0.25);
+}
+
+#logo {
+    height: 25px;
+}
+.arrow {
+    display: inline;
+    width: 15px;
+    height: 15px;
+    padding-left: 15px;
+    padding-top: 7px;
+    top: 40px;
+    opacity: .5;
+}
+.header-button {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+button:hover{
+    cursor: pointer;
+}
+#writers {
+    margin-left: 30px;
+}
+.sp {
+    padding-bottom: 50px;
+}
+#search-area {
+    flex: 1;
+    display: flex;
+}
+#search {
+    width: 300px;
+    margin-left: auto;
+}
+#burger {
+    height: 40px;
+    opacity: .5;
+    padding: 10px;
+    margin-left: 25px;
+}
+hr {
+    opacity: .175;
+    border-top: 4px;
+}
+#login {
+    padding-left: 35px;
+}
+section{
+    max-width: 945px;
+    /* width: auto; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* intro section */
+/* #intro {
+
+} */
+#intro h2{
+    text-align: center;
+}
+#intro-top{
+    display: flex;
+    flex-flow: row wrap-reverse;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 65px;
+}
+#intro-text{
+    width: 50%;
+    
+    /* background-color: lavenderblush; */
+}
+#intro-text p{
+    font-size: larger;
+}
+#intro-photos{
+    /* background-color: palegoldenrod; */
+    width: 450px;
+    height: 325px;
+}
+.intro-collage{
+    /* display: block; */
+    max-width: 100%;
+}
+#bottom{
+    position: relative;
+    width: 270px;
+    z-index: 0;
+}
+#middle{
+    position: relative;
+    width: 340px;
+    bottom: 130px;
+    left: 70px;
+    z-index: 1;
+}
+#top{
+    position: relative;
+    width: 270px;
+    bottom: 250px;
+    left: 155px;
+    z-index: 2;
+}
+#author-section{
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+
+}
+/* this is the container for the author blocks/links */
+#author-links{
+    width: 720px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+
+}
+/* this is the div for each author block/link */
+.authors{ 
+    background-color: rgb(255, 255, 255); 
+    padding: 10px;
+    width: 180px;
+    height: 290px;
+    text-align: center;
+}
+.authors img{
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+}
+
+.authors p{
+    opacity: 0.5;
+}
+.authors:hover{
+    background-color: rgb(248, 248, 248);
+    border-radius: 5px;
+}    
+#browse{ /*this took me entirely too long... better way?*/
+    width: 140px;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    margin-left: -70px;
+    padding-bottom: 50px;
+    opacity: .6;
+    padding: 12.5px;
+    border: solid black 1px;
+    border-radius: 4px;
+}
+/* in-charge-section*/
+#in-charge{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
+
+}
+#in-charge-text{
+    max-width: 40%;
+    height: auto;
+    padding-bottom: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#in-charge-photo{
+    max-width: 450px;
+    height: auto;
+    flex-grow: .5;
+    margin-bottom: 25px;
+}
+
+/* get paid section */
+#paid{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
+
+}
+#paid-text{
+    width: 50%;
+    padding-bottom: 25px;
+}
+#paid-photo{
+    width: 235px;
+    height: auto;
+    margin: 25px;
+}
+
+/* quote section */
+#quote{
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+}
+#quote i{
+    font-size: x-large;
+}
+#quote p{
+    font-size: large;
+}
+#quote p a{
+    text-decoration: underline;
+}
+/* footer */
+footer{
+    background-color: rgb(245, 245, 245); 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;   
+}
+#footer-contents{
+    width: 945px;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-around;
+    padding-top: 20px;
+    
+}
+#footer-logo{
+    height: 35px;
+}
+#logo-cont{
+    /* padding-right: 120px; */
+    margin-top: 20px;
+    padding-left: 10px;
+}
+
+#logo-cont a{
+    text-decoration: underline;
+}
+#logo-cont p{
+    font-size: small;
+    opacity: .6;
+    padding: 7.5px;
+}
+#footer-columns{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    font-size: small;
+    opacity: .6;
+    margin-bottom: 50px;
+    padding: 20px;
+    white-space: nowrap;
+}
+a:link .column{
+    text-decoration: none;
+}
+@media only screen and (max-width: 910px) {
+    .disappear {
+      display: none;
+    }
+    #burger {
+      margin-left: 1px;
+      padding: 5px;
+    }
+    .header-button {
+        padding: none;
+        margin: none;
+  }
+}
+@media only screen and (min-width: 911px) {
+    #burger {
+      display: none;
+    }
+  }
+@media only screen and (max-width: 600px) {
+    main img{
+        max-width: 100%;
+        height: auto;
+    }
+    #intro-photos{
+        display: block;
+        max-width: 80%;
+    }
+    #intro-text{
+        max-width: 90%;
+        padding-top: 35px;
+    }
+    #in-charge-text{
+        max-width: 90%;
+    }
+    .centered-link{
+        width: 300px;
+        margin: 0 auto;
+    }
+    #in-charge-photo {
+       max-width: 90%;
+    }
+    #sarah, #lolita, #henry{
+        display: none;
+    }
+    #top, #middle{
+        display: none;
+    }
+    #bottom{
+        width: auto;
+    }
+} 

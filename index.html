@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fakestack</title>
+    <link rel="icon" href="assets/favicon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="#"><img id="logo" src="https://cdn.substack.com/image/fetch/w_280,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Fsubstack_wordmark.png%3Fv%3D2" alt="substack-logo" ></a>
+        <span class="dropdown">
+            <button id="writers" class="header-button disappear"><span class="sp">Writers</span><img class="arrow" src="https://webstockreview.net/images/arrowhead-clipart-arrow-down-9.png" alt=""></button>
+            <div class="dropdown-content">
+                <ul>
+                    <li><a href="#">Start a publication</a></li>
+                    <li><a href="#">Learn more</a></li>
+                    <li><a href="#">Switch to Substack</a></li>
+                    <li><a href="#">Why go paid?</a></li>
+                    <li><a href="#">Resources</a></li>
+                    <li><a href="#">Events</a></li>
+                </ul>
+            </div>
+        </span>
+        <span class="dropdown">
+            <button class="header-button disappear"><span class="sp">About us</span><img class="arrow" src="https://webstockreview.net/images/arrowhead-clipart-arrow-down-9.png" alt=""></button>
+            <div class="dropdown-content">
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Jobs</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Help</a></li>
+                </ul>
+            </div>
+        </span>
+        <div id="search-area">
+            <input class="disappear" type="text" placeholder="Find writers or publications..." id="search">
+        </div>
+        <button class="header-button" id="login">Log in</button>
+        <a href="#"><img id="burger" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/1024px-Hamburger_icon.svg.png" alt="burger"></a>
+    </header>    
+    <hr>
+    <main>
+        <section id="intro">
+            <div id="intro-top"> <!--section above author photo links--> 
+                <div id="intro-text">
+                    <h1>A place for independent writing</h1>
+                    <p>Start a newsletter. Build your community. Make<br> money from subscriptions.</p>
+                    <p>Publishing is free, with no limits. We only make<br> money when you do.</p>
+                    <br><br>
+                    <a href="#" id="intro-button" class="orange-button">Start publishing</a>
+                </div>
+                <div id="intro-photos">
+                    <img class="intro-collage" id="bottom" src="./assets/intro-bottom.jpeg" alt="Photo of substack pages">
+                    <img class="intro-collage" id="middle" src="./assets/intro-middle.jpeg" alt="Photo of substack pages">
+                    <img class="intro-collage" id="top" src="./assets/intro-top.jpeg" alt="Photo of substack pages">
+                </div>
+            </div>
+            <div id="author-section"> <!--authors and photo/links-->
+                <h2>Who writes on Substack?</h2> 
+                    <div id="author-links">
+                        <a href="#" id="emily"><div class="authors">
+                            <img src="./assets/Emily.jpg" alt="Emily">
+                            <h3>Emily Oster</h3><p>writes about pregnancy
+                            and parenting data on <strong>ParentData</strong></p>
+                        </div></a>
+                        <a href="#" id="matt"><div class="authors">
+                            <img src="./assets/Matt.jpg" alt="Matt">
+                            <h3>Matt Stoller</h3><p>writes about the politics of
+                                monopoly on <strong>BIG</strong></p>
+                        </div></a>
+                        <a href="#" id="sam"><div class="authors">
+                            <img src="./assets/Sam.jpg" alt="Sam">
+                            <h3>Sam Irby</h3><p>writes about what she's into
+                                on <strong>books/snacks/softcore</strong></p>
+                        </div></a>
+                        <a href="#" id="sarah"><div class="authors">
+                            <img src="./assets/Sarah.jpeg" alt="Sarah">
+                            <h3>Sarah Bessey</h3><p>writes about everyday faith in
+                               her <strong>Field Notes</strong></p>
+                        </div></a>
+                        <a href="#" id="lolita"><div class="authors">
+                            <img src="./assets/Lolita.jpg" alt="Lolita">
+                            <h3>Lolita Taub</h3><p>writes about underestimated founders
+                                on <strong>Lolita's Newsletter</strong></p>
+                        </div></a>
+                        <a href="#" id="henry"><div class="authors">
+                            <img src="./assets/Henry.jpg" alt="Henry">
+                            <h3>Henry Abbot</h3><p>writes about basketball
+                                on <strong>TrueHoop</strong></p>
+                        </div></a>
+                    </div>
+            </div>
+            <br><br>
+            <div><a href="#" id="browse">Browse top writers</a></div>
+            <br><br><br>
+        </section>
+        <hr>
+        <section id="in-charge">
+            <div id="in-charge-text">
+                <h2>You're in charge</h2>
+                <p>Your email list is your community. When you start a Substack, you get:</p>
+                <ul>
+                    <li>Your own email list</li>
+                    <li>A website for all your posts</li>
+                    <li>Community features</li>
+                    <li>Audio, video, images, GIFs, and more</li>
+                    <li>Control over what's free and what's only for your paid subscribers</li>
+                </ul>
+                <p>It takes less than a minute to get started.</p>
+                <br><br>
+                <div class="centered-link"><a href="#" id="in-charge-button" class="orange-button">Start publishing</a></div>
+                <br><br>
+            </div>
+            <img id="in-charge-photo" src="./assets/in-charge.jpeg" alt="A screenshot">
+        </section>
+        <hr>
+        <section id="paid">
+            <div id="paid-text">
+                <h2>Get paid to do what you love</h2>
+                <p>Build your audience on Substack, or bring them over. When you're ready, you can add paid subscriptions.</p>
+                <p>We take care of the details so you can focus on writing. Top writers on Substack make hundreds of thousands of dollars a year.</p>
+                <br><br>
+                <a href="#" id="paid-button" class="orange-button">Learn more</a>
+                <br><br>
+            </div>
+            <img id="paid-photo" src="./assets/paid.png" alt="An example of a subscription sign up sheet">
+        </section>
+        <hr>
+        <section id="quote">
+            <br><br>
+            <q><i>I'm finally writing the things I want to write.</i></q>
+            <br>
+            <p>—JP Brammer, <a href="#">¡Hola Papi!</a></p>
+            <br><br>
+            <a href="#" id="quote" class="orange-button">Start publishing</a>
+            <br><br><br><br>
+        </section>
+    </main>
+    <footer>
+        <div id="footer-contents">
+            <div id="logo-cont">
+                <img id="footer-logo" src="./assets/substacklogo.png" alt="substack's logo">
+                <p>© 2021 Substack Inc. See <a href="#">privacy</a>, <a href="#">terms</a>, and <a href="#">information collection notice</a></p>
+            </div>
+            <div id="footer-columns">
+                <div id="footer-left-column" class="column">
+                    <h3>Company</h3>
+                    <a href="#">@SubstackInc <img src="./assets/twitter-icon.png" alt="twitter logo"></a>
+                    <a href="#">About</a>
+                    <a href="#">Help</a>
+                    <a href="#">Jobs</a>
+                    <a href="#">Blog</a>
+                </div>
+                <div id="footer-right-column" class="column">
+                    <h3>Writers</h3>
+                    <a href="#">Learn more</a>
+                    <a href="#">Switch to Substack</a>
+                    <a href="#">Why go paid?</a>
+                    <a href="#">Resources</a>
+                    <a href="#">Help</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+
+<!-- 
+    Questions:
+
+cant get intro divs to shrink with media query
+
+<hr> not showing on chrome... opacity too high?
+
+chrome media query seems to be working a little better but 
+puts a big margin to the right of everything and shrinking text
+
+how to "float" right or left with flexbox.
+ -->
