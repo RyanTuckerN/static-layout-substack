@@ -130,7 +130,7 @@ section{
     display: flex;
     flex-flow: row wrap-reverse;
     justify-content: center;
-    padding-top: 100px;
+    padding-top: 40px;
     padding-bottom: 65px;
 }
 #intro-text{
